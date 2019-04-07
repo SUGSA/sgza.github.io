@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Home | Regional Scrum Gathering® South Africa</title>
+		<title>Home | Regional Scrum Gathering<sub>®</sub> South Africa</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -63,7 +63,7 @@
 			<div class="container">
 				<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
 					<div class="col-xl-10 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-						<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"> Regional Scrum <br>Gathering® <br><span>Cape Town</span></h1>
+						<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"> Regional Scrum <br>Gathering<sub>®</sub> <br><span>Cape Town</span></h1>
 						<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">October 17-18, 2019. Cape Town, South Africa</p>
 						<div id="timer" class="d-flex mb-3">
 							<div class="time" id="days"></div>
@@ -491,13 +491,13 @@
 							<div class="form-row">
 								<div class="form-group col-md-6">
 									<input type="text" class="form-control form-control-lg w-100" name="your-name" placeholder="Your Name" required>
-									<div class="invalid-feedback">
+									<div class="invalid-tooltip">
 										Enter the name of the contact person making this booking.
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<input type="email" class="form-control w-100" name="your-email" placeholder="Your Email Address*" required>
-									<div class="invalid-feedback">
+									<div class="invalid-tooltip">
 										Enter a valid Email address.
 									</div>
 
@@ -506,7 +506,7 @@
 							<div class="form-row">
 								<div class="form-group col-md-6">
 									<input type="tel" class="form-control form-control-lg w-100" name="your-contact-number" placeholder="Your Contact Number" required>
-									<div class="invalid-feedback">
+									<div class="invalid-tooltip">
 										Enter a valid contact number for the person making this booking.
 									</div>
 
@@ -532,7 +532,7 @@
 								</div>
 								<div class="form-group col-md-4">
 									<input type="number" class="form-control d-inline" name="number-of-tickets" required>
-									<div class="invalid-feedback">
+									<div class="invalid-tooltip">
 										Enter the number of tickets you would like to purchase.
 									</div>
  
@@ -556,7 +556,7 @@
 									<div class="form-check">
 										<input class="form-check-input" type="checkbox" value="" id="terms-and-conditions" required>
 	  									<label class="form-check-label" for="terms-and-conditions">I have read and agree to the <a href="terms-and-conditions.html" target="_blank">Terms and Conditions and Privacy Policy</a></label>
-										<div class="invalid-feedback">
+										<div class="invalid-tooltip">
 											You must agree before submitting.
 										</div>
 	  								</div>
@@ -578,6 +578,7 @@
 			</div>
 		</section>
 
+		<!-- BEGINNING footer -->
 		<footer class="ftco-footer ftco-bg-dark ftco-section">
 			<div class="container">
 				<div class="row mb-5">
@@ -631,6 +632,7 @@
 				</div>
 			</div>
 		</footer>
+		<!-- END footer -->
 
 		<!-- loader -->
 		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
@@ -653,5 +655,25 @@
 		<script src="js/google-map.js"></script>
 		<script src="js/main.js"></script>
 		<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+		<script>
+			// Example starter JavaScript for disabling form submissions if there are invalid fields
+			(function() {
+			  'use strict';
+			  window.addEventListener('load', function() {
+			    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+			    var forms = document.getElementsByClassName('needs-validation');
+			    // Loop over them and prevent submission
+			    var validation = Array.prototype.filter.call(forms, function(form) {
+			      form.addEventListener('submit', function(event) {
+			        if (form.checkValidity() === false) {
+			          event.preventDefault();
+			          event.stopPropagation();
+			        }
+			        form.classList.add('was-validated');
+			      }, false);
+			    });
+			  }, false);
+			})();
+		</script>
 	</body>
 </html>
