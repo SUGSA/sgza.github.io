@@ -53,18 +53,13 @@
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a href="../index.html" class="nav-link">
-                    <ion-icon name="home"></ion-icon>
-                    Home</a></li>
-                <li class="nav-item active"><a href="../speakers.html" class="nav-link">Speakers</a></li>
-                <li class="nav-item"><a href="../schedule.html" class="nav-link">Schedule</a></li>
-                <li class="nav-item"><a href="../sponsors.html" class="nav-link">Sponsors</a></li>
-                <li class="nav-item"><a href="../sponsors/scrum-alliance.html" class="nav-link">Scrum Alliance</a></li>
-                <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
-                <li class="nav-item cta mr-md-2"><a href="http://sugsa.org.za/event/sgza2019/" target="_blank"
-                                                    class="nav-link">Buy tickets
-                    <ion-icon name="cart"></ion-icon>
-                </a></li>
+                <li class="nav-item"><a href="../index.html" class="nav-link" id="menuHome"><ion-icon name="home"></ion-icon></a></li>
+                <li class="nav-item active"><a href="../speakers.html" class="nav-link" id="menuSpeakers"></a></li>
+                <li class="nav-item"><a href="../schedule.html" class="nav-link" id="menuSchedule"></a></li>
+                <li class="nav-item"><a href="../sponsors.html" class="nav-link" id="menuSponsors"></a></li>
+                <li class="nav-item"><a href="../sponsors/scrum-alliance.html" class="nav-link" id="menuScrumAlliance"></a></li>
+                <li class="nav-item"><a href="../contact.html" class="nav-link" id="menuContact"></a></li>
+                <li class="nav-item cta mr-md-2"><a href="http://sugsa.org.za/event/sgza2019/" target="_blank" class="nav-link" id="menuButton"><ion-icon name="cart"></ion-icon></a></li>
             </ul>
         </div>
     </div>
@@ -323,6 +318,7 @@
 <script src="../js/bootstrap-datepicker.js"></script>
 <script src="../js/scrollax.min.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/vars.js"></script>
 <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 <script>
     // Example starter JavaScript for disabling form submissions if there are invalid fields
