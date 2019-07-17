@@ -41,9 +41,13 @@ document.getElementById("menuButton").innerHTML = menuButton;
 
 //Speaker Variables
 var Keynote1_Name = "Natalie Warnert";
+var Keynote1_Role = "Independent Consultant"
+var Keynote1_About = "<p>Natalie Warnert is founder, president and executive director of Women in Agile Org, a nonprofit which enables, empowers, and expands the distribution of new and diverse ideas in the agile and technology communities worldwide. She is a frequent speaker on business and agile topics including product strategy, user experience, and emotional intelligence. Her strategy focuses on actions you can implement tomorrow for immediate impact that track toward longer-term vision and outcomes. Natalie also brings unparalleled humor to all her engagements (or so she thinks).</p><p>Natalie is passionate about guiding companies as they design, execute, and support their approach to cultural change as an independent consultant at her company, Natalie Warnert LLC. Her vast thought leadership experience is recognized by her numerous keynotes, podcasts, and publications including being a SAFe framework contributor and creator of the UX Runway. Natalie has earned various degrees and certifications over the past decade including her Master of Arts in Organizational Leadership, SAFe Program Consultant, Certified Scrum Professional, and Six Sigma Yellow Belt.</p>"
 var Keynote1_Topic = ""
 
 var Keynote2_Name = "Makibinyane Mohapeloa";
+var Keynote2_Role = "Professional Entrepreneur"
+var keynote2_About = "";
 var Keynote2_Topic = "";
 
 var Speaker1_Name = "";
@@ -136,6 +140,13 @@ var Speaker29_Topic = "";
 var Speaker30_Name = "";
 var Speaker30_Topic = "";
 
+//Set speaker names to the values used above
+document.getElementById("Keynote1_Name").innerHTML = Keynote1_Name;
+document.getElementById("Keynote2_Name").innerHTML = Keynote2_Name;
+
+//Set speaker roles to the values used above
+document.getElementById("Keynote1_Role").innerHTML = Keynote1_Role;
+document.getElementById("Keynote2_Role").innerHTML = Keynote2_Role;
 
 //Speaker count
 var speakersList = [
