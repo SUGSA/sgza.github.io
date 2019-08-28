@@ -3612,7 +3612,7 @@ input[type="button"].btn-block {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1.25rem; }
+  padding: 0.5rem; }
 
 .card-title {
   margin-bottom: 0.75rem; }
@@ -8902,3 +8902,101 @@ textarea.form-control {
 .disabled {
   display: none;
 }
+
+/*!
+ * Program Grid
+ */
+.prog-card-h-50 {
+  min-height: 50px;
+}
+.prog-card-h-100 {
+  min-height: 100px;
+}
+.prog-card-h-150 {
+  min-height: 150px;
+}
+.prog-card-h-266 {
+  min-height: 266px;
+}
+.prog-card-text {
+  font-size: 12px;
+}
+.prog-card-overlay {
+  margin-left: 20px;
+  margin-top: -50px;
+}
+#program-section div.card-padding {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#program-section div.card {
+  border: none;
+  color: #000000;
+}
+
+.prog-card-light-red {
+  background-color: #f4cccc;
+}
+
+.prog-card-light-green-2 {
+  background-color: #b6d7a8;
+}
+
+.prog-card-light-green-3 {
+  background-color: #d9ead3;
+}
+
+.prog-card-light-yellow-2 {
+  background-color: #fde599;
+}
+
+.prog-card-light-blue-2 {
+  background-color: #9fc5e8;
+}
+
+.prog-card-light-purple-2 {
+  background-color: #b4a7d6;
+}
+
+.prog-card-light-magenta-2 {
+  background-color: #ead1dc;
+}
+
+.icon-person {
+  color: #fff;
+  border-radius: 25%;
+  background: #ce3234;
+
+}
+
+.icon-business {
+  color: #fff;
+  border-radius: 25%;
+  background: #000;
+}
+
+.icon-product {
+  color: #fff;
+  border-radius: 25%;
+  background: #3d85c6;
+}
+
+.icon-process {
+  color: #fff;
+  border-radius: 25%;
+  background: #f27406;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
