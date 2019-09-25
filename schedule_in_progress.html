@@ -25,6 +25,9 @@
 		<link rel="stylesheet" href="css/flaticon.css">
 		<link rel="stylesheet" href="css/icomoon.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+		<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 		<link rel="icon" type="image/png" href="images/favicon.ico">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-82464032-2"></script>
@@ -149,9 +152,30 @@
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 prog-card-light-red">
+												<div class="card w-100 prog-card-h-100 prog-card-light-red" data-toggle="modal" data-target="#modReg1">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Registration and Networking</p>
+														
+														<!-- Modal -->
+														<div class="modal fade" id="modReg1" tabindex="-1" role="dialog" aria-labelledby="modReg1Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Registration and Networking</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Head over to the registration table to tick your name off the registration list and to collect your goodie bag.</p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -170,10 +194,38 @@
 											<div class="col-md-4 card-padding">
 											</div>
 											<div class="col-md-4 card-padding">
-												<div class="card w-100 prog-card-h-100 prog-card-light-green-2">
+												<div class="card w-100 prog-card-h-100 prog-card-light-green-2" data-toggle="modal" data-target="#modKeynote1">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Welcome</p>
-														<p class="card-title prog-card-text text-center">Keynote: Natalie Warnert</p>
+														<p class="card-title prog-card-text text-center">Opening Keynote: Nurturing Diversity in Technology Through Lean Startup & Product Kata</p>
+														<p class="card-title prog-card-text text-center">Natalie Warnert</p>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modKeynote1" tabindex="-1" role="dialog" aria-labelledby="modKeynote1Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Nurturing Diversity in Technology Through Lean Startup & Product Kata (case study: Women in Agile Org)</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>The Lean Startup and Product Kata mindset of small, targeted experiments is a great way for products to determine how to expand meaningfully and sustainably while examining data and experience collected along the way. These tools can also be expanded to organizations that provide non traditional products such as services, information, and other types of messaging to target their audiences' needs in the right ways. One example of this is the Women in Agile movement, which started like most products do, with curiosity about a problem. Now it has grown to a non-profit organization with local groups across the world and many conference pairings under its belt all in a timeframe of a few years. Natalie will discuss the Lean Startup and Product Kata themes using Women in Agile as a case study. Learn how these product frameworks were used to expand a movement, that does not provide a physical "product", to get to where it is today, a global non profit with over 4000 members, and how you can take our lessons learned to nurture your curiosity, organizations, and non traditional "product" ideas in a successful and sustainable way.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Understand how to implement the Product Kata to design experiments and analyze data/metric changes in your target problems to solve</li>
+																			<li>Learn to apply the Lean Startup and Product Kata concepts to services and organizations/movements (versus traditional physical or software products)</li>
+																			<li>Articulate the Women in Agile story as a non traditional movement built and cultivated through curiosity, experimentation, and decentralization</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -219,19 +271,49 @@
 											<div class="col-md-2 card-padding">
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3" data-toggle="modal" data-target="#modSession1">
 													<div class="card-body">
-														<p class="card-title prog-card-text text-center">The Agile Coaching Model You Always Needed</p>
+														<p class="card-title prog-card-text text-center">The Agile Coaching Engagement Model You Always Needed</p>
 														<p class="card-text prog-card-text text-center">- Justin Kotze</p>
 														<div class="text-center">
 															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 															<ion-icon name="business" size="large" class="icon-business"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession1" tabindex="-1" role="dialog" aria-labelledby="modSession1Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">The Agile Coaching Model You Always Needed</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>It's not easy balancing the workload that comes with: driving improvement in business impact, delivery performance, and team health in organizations as an SM or Coach. It is often difficult to articulate to folks what you are working on, how you are doing it and why. Do you need help with this?</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>How to make use of this engagement model in your own context as an Agile Coach or ScrumMaster</li>
+																			<li>Building capacity in teams to be less reliant on you</li>
+																			<li>How to balance many different requirements on you as an Agile Coach or ScrumMaster</li>
+																			<li>Using coaching contracts in your organization</li>
+																			<li>Balancing pushing coaching onto the org and having the capacity for ad hoc opportunities and asks</li>
+																			<li>Exactly how our model looks and you will get to use it and take it with you</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3" data-toggle="modal" data-target="#modSession2">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">3... 2... 1... We Have Sprint-Off</p>
 														<p class="card-text prog-card-text text-center">- Talia Lancaster</p>
@@ -239,11 +321,41 @@
 															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 															<ion-icon name="logo-dropbox" size="large" class="icon-product"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession2" tabindex="-1" role="dialog" aria-labelledby="modSession2Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">3... 2... 1... We Have Sprint-Off</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Getting new teams to work together is hard. We believe that the key to high-performance teams is creating an intentional high-performance culture. Join us as we explore the Team Canvas covering the elements that make teamwork work.</p>
+																		<p>Get ready to sprint-off your team in 3... 2... 1...</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Learn facilitation techniques that will instantly help you in your role as a facilitator or Scrum Master.</li>
+																			<li>Stop unproductive team conflict before it starts, by discussing things that matter to the team BEFORE they start working together.</li>
+																			<li>Get everyone onto the same page. Fast!</li>
+																			<li>Understand the essential elements to make teamwork work.</li>
+																			<li>How to use the Team Canvas to create an intentional team culture that respects and embraces diversity.</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession3">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">From a Project Manager to a Product Owner: The Devolution of Power</p>
 														<p class="card-text prog-card-text text-center">- Wambui Muiru</p>
@@ -251,6 +363,33 @@
 															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 															<ion-icon name="logo-dropbox" size="large" class="icon-product"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession3" tabindex="-1" role="dialog" aria-labelledby="modSession3Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">From a Project Manager to a Product Owner: The Devolution of Power</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>This is a story of my journey as a product owner and my personal experience in the agile space. I've had to un-learn a lot of the methods I had perfected for the last 6 years. However, instead of feeling like I had wasted those many years, I felt re-born.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Evaluating if the methods we are currently using are as effective as we think they are</li>
+																			<li>How to use failure as a learning tool</li>
+																			<li>How to encourage dropping of obsolete practices rooted in our work culture</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 												<div class="card w-100 prog-card-h-50 mb-2 prog-card-light-yellow-2">
@@ -258,20 +397,68 @@
 														<p class="card-text prog-card-text text-center">Speaker Change</p>
 													</div>
 												</div>
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession4">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Is Agile Driving You Insane?</p>
 														<p class="card-text prog-card-text text-center">- Malene Bendixen</p>
 														<div class="text-center">
 															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession4" tabindex="-1" role="dialog" aria-labelledby="modSession4Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Is Agile Driving You Insane?</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Can agile really drive you insane? Being part of a constantly changing world is not easy. As Coaches, Scrum Masters, etc. it is expected of us to go in front and be servant leaders - but we are also only human and the reality is not always that simple. How do you look after yourself in this world?</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Describe scenarios that can create stress.</li>
+																			<li>Explain how the agile mindset can impact people negatively.</li>
+																			<li>Combine and apply 5 tools learned at the talk to destress your life.</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-magenta-2">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-magenta-2" data-toggle="modal" data-target="#modSession5">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">All Day: Reflection Space in Garden Room & Board Games in Sponsor Area</p>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession5" tabindex="-1" role="dialog" aria-labelledby="modSession5Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">All Day: Reflection Space</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p></p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -315,7 +502,7 @@
 											<div class="col-md-2 card-padding">
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3" data-toggle="modal" data-target="#modSession6">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Deliberate Discovery Workshop: A Learning Approach to Uncertainty</p>
 														<p class="card-text prog-card-text text-center">- Cara Turner</p>
@@ -323,18 +510,80 @@
 															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 															<ion-icon name="cog" size="large" class="icon-process"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession6" tabindex="-1" role="dialog" aria-labelledby="modSession6Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Deliberate Discovery Workshop: A Learning Approach to Uncertainty</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Software teams live with uncertainty: it's hard to plan for most of our work. Not just because things change - there are also different types of Unknowns, with different ways to approach each. More than a plan, we really need a way to identify our uncertainty, and choose a route to take from there.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Understanding of the 5 Orders of Ignorance</li>
+																			<li>Being able to tell Known Unknowns, Unknown Knowns & Unknown Unknowns better than Donald Rumsfeld</li>
+																			<li>
+																				Understanding that:
+																				<ul>
+																					<li>Being uncertain is actually a valuable state to be in, as long as we can recognise what we feel uncertain about</li>
+																					<li>It is possible to recognise what it is we donâ€™t know</li>
+																					<li>It is possible to start learning *from* a question</li>
+																					<li>There are different strategies for different kinds of unknowns</li>
+																				</ul>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
-													<img src="images/AlexSloley.jpg" class="card-img-top" alt="Alex Sloley">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession7">
+													<!-- <img src="images/AlexSloley.jpg" class="card-img-top" alt="Alex Sloley"> -->
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">The End is Nigh! Transformation Apocalypse!</p>
 														<p class="card-text prog-card-text text-center">- Alex Sloley</p>
 														<div class="text-center">
 															<ion-icon name="business" size="large" class="icon-business"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession7" tabindex="-1" role="dialog" aria-labelledby="modSession7Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">The End is Nigh! Transformation Apocalypse!</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>How can an Agile Coach figure out when an Agile Transformation is going wrong? Are there signs that they might see and heed? Of course, there are! We will discuss transformation provider types, frameworks, keywords, and other anti-patterns that might be signs that THE END IS NIGH.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Attendees will learn that Agile Transformations have some consistent warning sign themes.</li>
+																			<li>Attendees will learn to identify common warning signs.</li>
+																			<li>Attendees will learn what happens after warning signs are escalated</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 												<div class="card w-100 prog-card-h-50 mb-2 prog-card-light-yellow-2">
@@ -342,24 +591,77 @@
 														<p class="card-title prog-card-text text-center">Speaker Change</p>
 													</div>
 												</div>
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-purple-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-purple-2" data-toggle="modal" data-target="#modSession8">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">But is it Art?</p>
 														<p class="card-text prog-card-text text-center">- Hans Roos</p>
 														<div class="text-center">
 															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession8" tabindex="-1" role="dialog" aria-labelledby="modSession8Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">But is it Art?</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>As developers, our tools are technical, our problems are technical but on a daily basis we are required to be creative when implementing solutions.</p>
+																		<p>I want to challenge conventional wisdom by discussing the process of developing software as a creative one instead of a technical one.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>I would like you to walk away understanding, how thinking of development as a creative process will help you better collaborate with your “technical team” leading to better team success.</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession9">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Training as a (T)eam</p>
 														<p class="card-title prog-card-text text-center">- Divashen Govender, <br />- Adam Ricketts, <br />- Kirsten Clacey</p>
 														<div class="text-center">
 															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession9" tabindex="-1" role="dialog" aria-labelledby="modSession9Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Training as a (T)eam</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Creating an environment that enables team members to learn from each others roles and responsibilities makes us stronger and more impactful inside and outside our team. We’d like to share 6 principles we believe have been central to enabling this and some supporting practices and behaviours.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Understand the value of creating and fostering cross-functional learning in a team</li>
+																			<li>Identify and recognise elements of one’s environment which contribute to safe learning in a team</li>
+																			<li>Discover some practices that support learning in a team</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 												<div class="card w-100 prog-card-h-50 mb-2 prog-card-light-yellow-2">
@@ -367,7 +669,7 @@
 														<p class="card-title prog-card-text text-center">Speaker Change</p>
 													</div>
 												</div>
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-purple-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-purple-2" data-toggle="modal" data-target="#modSession10">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Achieving Agility with Code Repositories</p>
 														<p class="card-text prog-card-text text-center">- Christopher Human</p>
@@ -375,13 +677,61 @@
 															<ion-icon name="logo-dropbox" size="large" class="icon-product"></ion-icon>
 															<ion-icon name="cog" size="large" class="icon-process"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession10" tabindex="-1" role="dialog" aria-labelledby="modSession10Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Achieving Agility with Code Repositories</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>When it comes to code, the way developers manage it can mean the difference between a successful or a blocked release. Having experienced these issues personally, in this talk I'll explain some of the issues I've experienced and show how my team and I manage our code today mitigating these problems.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>A basic understanding of version control and code repositories</li>
+																			<li>A strategy that developers can follow in order to plan and organise their code in an Agile manner</li>
+																			<li>An understanding of how Product Owners can aid their developers in maintaining this strategy</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-magenta-2">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-magenta-2" data-toggle="modal" data-target="#modSession11">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">All Day: Reflection Space in Garden Room & Board Games in Sponsor Area</p>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession11" tabindex="-1" role="dialog" aria-labelledby="modSession11Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">All Day: Reflection Space</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p></p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -425,18 +775,39 @@
 											<div class="col-md-2 card-padding">
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3" data-toggle="modal" data-target="#modSession12">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">ORGANIC Agility: A Complexity- based Approach to Growing Resilient Organisations</p>
 														<p class="card-text prog-card-text text-center">- Peter Hundermark</p>
 														<div class="text-center">
 															<ion-icon name="business" size="large" class="icon-business"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession12" tabindex="-1" role="dialog" aria-labelledby="modSession12Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">ORGANIC Agility: A Complexity- based Approach to Growing Resilient Organisations</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Leaders everywhere are talking about how to survive and thrive in our world. ORGANIC agility offers a complexity-based approach to help every leader guide their organisation on its unique journey to becoming and remaining resilient. Join this short workshop to taste ORGANIC agility in action.</p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3" data-toggle="modal" data-target="#modSession13">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Gathering Requirements Through Event Storming</p>
 														<p class="card-text prog-card-text text-center">Lorraine Steyn<br />- Ayesha Bagus-Casker</p>
@@ -444,17 +815,72 @@
 															<ion-icon name="logo-dropbox" size="large" class="icon-product"></ion-icon>
 															<ion-icon name="cog" size="large" class="icon-process"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession13" tabindex="-1" role="dialog" aria-labelledby="modSession13Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Gathering Requirements Through Event Storming</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Event Storming is a relatively new technique that helps business and technical teams to gather requirements in a very interactive manner. It’s ideal for feature discovery, and encourages everyone to participate. Once you’ve tried it, you will always want to start a new feature or product this way!</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Participants will learn the theory behind Event Storming;</li>
+																			<li>We’ll practice the technique in groups at a strategic as well as tactical level;</li>
+																			<li>You’ll see how much functionality emerges in the discovery phase, and hopefully will leave the workshop with a strong understanding of this new and very useful Requirements Gathering method.</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession14">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Using Hate to Achieve Your Goals and Influence Others</p>
 														<p class="card-text prog-card-text text-center">- Bevan Williams</p>
 														<div class="text-center">
 															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession14" tabindex="-1" role="dialog" aria-labelledby="modSession14Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Using Hate to Achieve Your Goals and Influence Others</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Do you hate how things work around you? Are you curious about how this negative emotion can be used to drive you to be a more impactful leader?</p>
+																		<p>Learn how to use this oft-avoided topic to make positive changes in your own life, and how those can influence others to make changes in theirs.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Use your hatred of things around you to create a positive vision for the future</li>
+																			<li>Learn how to identify the feeling of hate and use it to your advantage</li>
+																			<li>Feel ready to achieve that next big step in your life with self-compassion</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 												<div class="card w-100 prog-card-h-50 mb-2 prog-card-light-yellow-2">
@@ -462,20 +888,70 @@
 														<p class="card-title prog-card-text text-center">Speaker Change</p>
 													</div>
 												</div>
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-purple-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-purple-2" data-toggle="modal" data-target="#modSession15">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">The Wall Must Fall!</p>
 														<p class="card-text prog-card-text text-center">- Nivan Moodley</p>
 														<div class="text-center">
 															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession15" tabindex="-1" role="dialog" aria-labelledby="modSession15Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">The Wall Must Fall!</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Lets Chat.... Me .. you...your PO...Your Team</p>
+																		<p>Afraid? uncertain?</p>
+																		<p>Come to this session and gain insight on how to cultivate these important working relationships</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>How to get my team to open up and trust me as Scrum master</li>
+																			<li>Gain insight into how to get my PO to work with me</li>
+																			<li>Learn Effective ways to communicate with Snr management</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-magenta-2">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-magenta-2" data-toggle="modal" data-target="#modSession16">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">All Day: Reflection Space in Garden Room & Board Games in Sponsor Area</p>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession16" tabindex="-1" role="dialog" aria-labelledby="modSession16Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">All Day: Reflection Space</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p></p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -500,13 +976,41 @@
 														<p class="card-title prog-card-text text-center">Open Mic<br />(Garden Room)</p>
 													</div>
 												</div>
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-purple-2 prog-card-overlay">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-purple-2 prog-card-overlay" data-toggle="modal" data-target="#modSession17">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Opens with:<br />Everything's Relative - The Brain Science Behind Why We Are So Much Better at Relative Rather Than Absolute Estimation</p>
 														<p class="card-text prog-card-text text-center">- Stuart Mann</p>
 														<div class="text-center">
 															<ion-icon name="cog" size="large" class="icon-process"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession17" tabindex="-1" role="dialog" aria-labelledby="modSession17Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Everything's Relative - The Brain Science Behind Why We Are So Much Better at Relative Rather Than Absolute Estimation</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Understand how your brain works and how this applies to relative size estimation.</p>
+																		<p>I will strain your brain with an "absolute" estimation exercise before inducing a blissful nirvana-like state by flipping the example around to a "relative" estimate.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Why we suck at absolute estimates</li>
+																			<li>Why we win with relative estimates</li>
+																			<li>How you can apply this to story and feature sizing</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -574,9 +1078,30 @@
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 prog-card-light-red">
+												<div class="card w-100 prog-card-h-100 prog-card-light-red" data-toggle="modal" data-target="#modReg2">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Registration for those that missed Day 1</p>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modReg2" tabindex="-1" role="dialog" aria-labelledby="modReg2Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel"></h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p></p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -595,9 +1120,30 @@
 											<div class="col-md-4 card-padding">
 											</div>
 											<div class="col-md-4 card-padding">
-												<div class="card w-100 prog-card-h-100 prog-card-light-green-3">
+												<div class="card w-100 prog-card-h-100 prog-card-light-green-3" data-toggle="modal" data-target="#modWelcome2">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Welcome to Day 2</p>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modWelcome2" tabindex="-1" role="dialog" aria-labelledby="modWelcome2Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel"></h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p></p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -633,7 +1179,7 @@
 											<div class="col-md-2 card-padding">
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession18">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Dancing with Uncertainty: Navigating Unknowns from Inception to Maintenance</p>
 														<p class="card-text prog-card-text text-center">- Cara Turner</p>
@@ -641,30 +1187,126 @@
 															<ion-icon name="logo-dropbox" size="large" class="icon-product"></ion-icon>
 															<ion-icon name="cog" size="large" class="icon-process"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession18" tabindex="-1" role="dialog" aria-labelledby="modSession18Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Dancing with Uncertainty: Navigating Unknowns from Inception to Maintenance</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Agilists have built a wealth of knowledge and practices for working with uncertainty. Yet all too often we find ourselves following a plan rather than responding to change. This session make sense of the tools we have to truly harness the discovery process, charting our journey through the unknown.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>This talk is aimed at agilists who need to navigate traditional control methods in otherwise agile environments.</li>
+																			<li>It provides insight into the deep thinking behind agility, in a light and accessible format.</li>
+																			<li>
+																				Learning includes:
+																				<ul>
+																					<li>Frameworks for thinking about Discovery</li>
+																					<li>Using sense-making to map our work, rather than upfront planning</li>
+																					<li>What it means to defer commitment responsibly</li>
+																					<li>The role agile practices play in discovery</li>
+																				</ul>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession19">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">A Pinch of Design, Some Luck and a Lot of Passion and Hard Work - My Journey in Building an Awesome Agile Consulting Team</p>
 														<p class="card-text prog-card-text text-center">- Biase De Gregorio</p>
 														<div class="text-center">
-															<ion-icon name="logo-person" size="large" class="icon-person"></ion-icon>
+															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 															<ion-icon name="business" size="large" class="icon-business"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession19" tabindex="-1" role="dialog" aria-labelledby="modSession19Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">A Pinch of Design, Some Luck and a Lot of Passion and Hard Work - My Journey in Building an Awesome Agile Consulting Team</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>How do you go about building a high-performing Agile consulting team, with the purpose of laying the foundation for better working environments for the next generation & beyond? Join me in my story of some of the challenges, lessons learnt & tips for anyone considering embarking on this journey.</p>
+																		<h5>Learning Outcomes</h5>
+																		<p>By the end of the talk, the delegates will:</p>
+																		<ul>
+																			<li>Understand some of the challenges in building an agile consulting team in South Africa</li>
+																			<li>Apply some of the tips in the lessons learnt in creating high-performing teams</li>
+																			<li>Outline leadership practices and principles in a consulting environment where oftentimes agile values and principles conflict with shareholder needs</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession20">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Mentoring and Growing Stronger Teams Using Agile Techniques</p>
 														<p class="card-text prog-card-text text-center">- Chris Tite</p>
 														<div class="text-center">
-															<ion-icon name="logo-person" size="large" class="icon-person"></ion-icon>
+															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 															<ion-icon name="cog" size="large" class="icon-process"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession20" tabindex="-1" role="dialog" aria-labelledby="modSession20Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Mentoring and Growing Stronger Teams Using Agile Techniques</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>We use time boxed cycles, shorter feedback cycles and small defined outcomes to run projects.</p>
+																		<p>Why not use this approach to mentor and grow staff?</p>
+																		<p>I have been doing this for 5 years.</p>
+																		<p>The outcome; higher job satisfaction and less burn-out among employees.</p>
+																		<p>Let me show you how.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>The motivation for an agile mentoring approach</li>
+																			<li>The agile mentoring approach and the agile mentoring life cycle</li>
+																			<li>Personas adopted in agile mentoring</li>
+																			<li>The people patterns adopted in agile mentoring, including anti-patterns</li>
+																			<li>The tools used to manage the process, including the career framework</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -715,36 +1357,120 @@
 											<div class="col-md-2 card-padding">
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3" data-toggle="modal" data-target="#modSession21">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Discovering Value Through Customer Interviews</p>
 														<p class="card-text prog-card-text text-center">- Annu Augustine</p>
 														<div class="text-center">
 															<ion-icon name="logo-dropbox" size="large" class="icon-product"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession21" tabindex="-1" role="dialog" aria-labelledby="modSession21Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Discovering Value Through Customer Interviews</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Product owners should be obsessed with delivering value to customers.They should interact with customers by conducting interviews. This enables them to make sound product decisions, write valuable stories & be the voice of the user.  Join this workshop to learn how to conduct effective interviews.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Formulate the right customer interview questions</li>
+																			<li>Define learning goals for customer interviews</li>
+																			<li>Develop active listening skills</li>
+																			<li>Synthesize interviews using a visual format</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3" data-toggle="modal" data-target="#modSession22">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Servant Leadership for Mzanzi?!</p>
 														<p class="card-text prog-card-text text-center">- Kim Dowdeswell<br />- Justin Doyle</p>
 														<div class="text-center">
-															<ion-icon name="logo-person" size="large" class="icon-person"></ion-icon>
+															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession22" tabindex="-1" role="dialog" aria-labelledby="modSession22Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Servant Leadership for Mzanzi?!</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Is Servant Leadership awesome, or is it merely a reflection of rebranded western value-based leadership models, perpetuating outdated perspectives? This workshop aims to engage delegates with thought-provoking discussion as to their perceptions of ideal leadership in the agile workplace.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Understand the benefits of servant leadership in the workplace</li>
+																			<li>Create a shared understanding of servant leadership in the South African context</li>
+																			<li>Understand international perspectives on what constitutes servant leadership</li>
+																			<li>Identify a success profile for servant leaders in South Africa</li>
+																			<li>Identify barriers to practicing effective servant leadership in South Africa</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession23">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Carefully Navigating the World of Objectives and Key Results</p>
 														<p class="card-text prog-card-text text-center">- Justin Kotze</p>
 														<div class="text-center">
-															<ion-icon name="logo-person" size="large" class="icon-person"></ion-icon>
+															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 															<ion-icon name="cog" size="large" class="icon-process"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession23" tabindex="-1" role="dialog" aria-labelledby="modSession23Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Carefully Navigating the World of Objectives and Key Results</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Is your company adopting OKRs? Perhaps you already have a lot of experience on OKRs and you want some inspiration by hearing on how it's been iterated on and implemented in a Business Unit at Spotify. Or perhaps you'd just like to know more about OKRs.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>What are OKRs</li>
+																			<li>Common pitfalls to look out for when implementing OKRs</li>
+																			<li>A bit of the Spotify spirit in action modifying a process to make it work</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 												<div class="card w-100 prog-card-h-50 mb-2 prog-card-light-yellow-2">
@@ -752,21 +1478,70 @@
 														<p class="card-title prog-card-text text-center">Speaker Change</p>
 													</div>
 												</div>
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession24">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Slaying the Dragon: An Agile Adventure</p>
 														<p class="card-text prog-card-text text-center">- Jay-Allen Morris<br />- Nelson Nogueira</p>
 														<div class="text-center">
 															<ion-icon name="cog" size="large" class="icon-process"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession24" tabindex="-1" role="dialog" aria-labelledby="modSession24Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Slaying the Dragon: An Agile Adventure</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>What if we have the mindset of ‘it depends’ instead of ‘I know’, how might that change the outcome? You will learn how we fostered a space where we mindfully bent the rules of Scrum to create a custom process that enabled a production support team (BAU) to move to a world of feature work.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Be able to think deeply about their current process and critically evaluate which parts of their process are done out of habit vs intention.</li>
+																			<li>Challenge their own beliefs and understand that using scrum by the book may not always be the answer and blindly implementing may cause more harm than good,</li>
+																			<li>Leave with one action they could experiment with and take back to their teams</li>
+																			<li>Understand that if you’re in a position of influence, your approach to team process can have a huge impact.</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-magenta-2">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-magenta-2" data-toggle="modal" data-target="#modSession25">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">All Day: Reflection Space in Garden Room & Board Games in Sponsor Area</p>
 													</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession25" tabindex="-1" role="dialog" aria-labelledby="modSession25Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel"></h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p></p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 												</div>
 											</div>
 										</div>
@@ -809,18 +1584,58 @@
 											<div class="col-md-2 card-padding">
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3" data-toggle="modal" data-target="#modSession26">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">The Life Changing Magic of Holding Space:  A Stance for Decluttering Your Organisational Space</p>
 														<p class="card-text prog-card-text text-center">- Steve Holyer</p>
 														<div class="text-center">
 															<ion-icon name="business" size="large" class="icon-business"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession26" tabindex="-1" role="dialog" aria-labelledby="modSession26Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">The Life Changing Magic of Holding Space:  A Stance for Decluttering Your Organisational Space</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>How can you shift and maybe declutter the culture of your organisation by "holding space"?</p>
+																		<p>This session asks:  What do the principles and law of an Open Space event reveal about joy and agile practice across your organisation?</p>
+																		<ul>
+																			<li>You're invited to refine your stance for sparking joy … and shift culture across organisational systems.</li>
+																			<li>Would you like to clear clutter from the complex system where you practice agility?</li>
+																			<li>How do you cultivate an Agile mindset for yourself and others?</li>
+																			<li>Does your the way you show up in your organisation, your stance, spark joy in yourself and others?</li>
+																			<li>Open Space Events like Agile Coach Camp, a regional Agile Unconference, or an internal open space company event can spark joy, and also help you cut through the clutter surrounding you in the systems where you practice.</li>
+																			<li>Now, let’s explore ways Open Space Technology can be game-changing for agile organisations.</li>
+																		</ul>
+																		<h5>Learning Outcomes</h5>
+																		<p>After this session you will be able to:</p>
+																		<ul>
+																			<li>Describe the principles of Open Space and explain how they relate to agility (and support it) in an organisation</li>
+																			<li>Use the "law of mobility" to enhance your coaching and leadership stance and create change in your organisation.</li>
+																			<li>Explain "holding space" and relate it to systems thinking.</li>
+																			<li>Evaluate new ways to lead by "invitation", and start leading by invitation</li>
+																			<li>Implement practical ways to encourage autonomous self organisation and name related agile practices both well-known and emerging</li>
+																			<li>Create or refine your stance for open space leadership when you return home</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-green-3" data-toggle="modal" data-target="#modSession27">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">What is Quality and How Does it Emerge Within an Agile Organisation?</p>
 														<p class="card-text prog-card-text text-center">- Louise Perold</p>
@@ -828,11 +1643,52 @@
 															<ion-icon name="logo-dropbox" size="large" class="icon-product"></ion-icon>
 															<ion-icon name="cog" size="large" class="icon-process"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession27" tabindex="-1" role="dialog" aria-labelledby="modSession27Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">What is Quality and How Does it Emerge Within an Agile Organisation?</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Are your customers happy with your product? Do you have a large on-call team to support production? Do you have a long lead time for any change due to the massive testing effort required? Does your team panic about making changes? Do you have a war room? How can quality emerge in your context?</p>
+																		<p>As I have experienced different contexts and been responsible for testing within them, I have grown more and more aware of factors that influence our ability to embrace quality as part of the team culture. In this workshop, I will introduce and use task analysis to:</p>
+																		<ul>
+																			<li>understand what might be getting in the way of a quality culture</li>
+																			<li>uncover potential levers within our teams that could be shifted / changed</li>
+																			<li>identify experiments to run and what we should observe to help us optimise for quality</li>
+																		</ul>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>What quality is and what is important for quality to emerge;</li>
+																			<li>What factors (context drivers) might be influencing quality in your context;</li>
+																			<li>Feedback loops that can be included;</li>
+																			<li>
+																				Frames or factors that can be adjusted to allow quality to emerge through:
+																				<ul>
+																					<li>Observations</li>
+																					<li>Reflections</li>
+																					<li>Diagrams</li>
+																					<li>Discussions</li>
+																				</ul>
+																			</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession28">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Facilitating High Stakes Retrospectives</p>
 														<p class="card-text prog-card-text text-center">- Kirsten Clacey<br />- Bee Sharwood</p>
@@ -840,6 +1696,32 @@
 															<ion-icon name="business" size="large" class="icon-business"></ion-icon>
 															<ion-icon name="cog" size="large" class="icon-process"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession28" tabindex="-1" role="dialog" aria-labelledby="modSession28Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Facilitating High Stakes Retrospectives</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>What does a retrospective of only C-suite members look like? How does running a retrospective at the end of a 1 year project add value to the organisation? Most Facilitators/Scrum Masters feel comfortable in the team retrospective space. We know our humans, we know our context and this familiarity lends itself to feeling relatively comfortable and safe (most of the time). However, some retrospectives feel quite different. We want to zoom in on what we call High Stakes retrospectives, looking at what makes a retrospective feel “high stakes” and suggesting a model for facilitators to navigate these spaces.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Knowledge of a basic framework that will increase the impact of retrospectives outside of Scrum teams</li>
+																			<li>Comprehension of some of the factors which complicate organisational level retrospectives</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 												<div class="card w-100 prog-card-h-50 mb-2 prog-card-light-yellow-2">
@@ -847,20 +1729,71 @@
 														<p class="card-title prog-card-text text-center">Speaker Change</p>
 													</div>
 												</div>
-												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2">
+												<div class="card w-100 prog-card-h-100 mb-2 prog-card-light-blue-2" data-toggle="modal" data-target="#modSession29">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">Beyond Tech:  Confusion, Conflict, and Lost Productivity</p>
 														<p class="card-text prog-card-text text-center">- Riaan Nel</p>
 														<div class="text-center">
-															<ion-icon name="logo-person" size="large" class="icon-person"></ion-icon>
+															<ion-icon name="person" size="large" class="icon-person"></ion-icon>
 														</div>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession29" tabindex="-1" role="dialog" aria-labelledby="modSession29Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Beyond Tech:  Confusion, Conflict, and Lost Productivity</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>We find ourselves in a complex world where technology and business collide.  Between business and IT, we don’t speak the same language, we don’t always see things in the same way, and we have different needs – but ultimately, we work towards the same goals.</p>
+																		<p>This talk is about effectively navigating your way through our complex world and bridging the gaps that lead to confusion, conflict, and lost productivity.  I’ll draw on my experience working at a number of different companies of varying sizes, and talk about some of the common issues that I’ve seen when business and IT teams work together – and how we can solve those issues.</p>
+																		<p>Spoiler Alert: Users are not the enemy, even when they give you grief.</p>
+																		<h5>Learning Outcomes</h5>
+																		<ul>
+																			<li>Understand the importance of a common understanding across business and technical teams.</li>
+																			<li>Understand what motivates other people that you work with.</li>
+																			<li>Understand how to communicate effectively.</li>
+																			<li>Understand the value of close collaboration.</li>
+																		</ul>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
 											<div class="col-md-2 card-padding">
-												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-magenta-2">
+												<div class="card w-100 prog-card-h-266 mb-2 prog-card-light-magenta-2" data-toggle="modal" data-target="#modSession30">
 													<div class="card-body">
 														<p class="card-title prog-card-text text-center">All Day: Reflection Space in Garden Room & Board Games in Sponsor Area</p>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modSession30" tabindex="-1" role="dialog" aria-labelledby="modSession30Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel"></h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p></p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -894,10 +1827,32 @@
 											<div class="col-md-4 card-padding">
 											</div>
 											<div class="col-md-4 card-padding">
-												<div class="card w-100 prog-card-h-100 prog-card-light-green-2">
+												<div class="card w-100 prog-card-h-100 prog-card-light-green-2" data-toggle="modal" data-target="#modKeynote2">
 													<div class="card-body">
-														<p class="card-title prog-card-text text-center">Closing</p>
-														<p class="card-title prog-card-text text-center">Keynote: Makibinyane Mohapeloa</p>
+														<p class="card-title prog-card-text text-center">Closing Activities</p>
+														<p class="card-title prog-card-text text-center">Closing Keynote: Inclusive growth vs exclusive death - implementing the UN Agenda 2030. Our role in institutionalising inclusive value creation.</p>
+														<p class="card-title prog-card-text text-center">Makibinyane Mohapeloa</p>
+
+														<!-- Modal -->
+														<div class="modal fade" id="modKeynote2" tabindex="-1" role="dialog" aria-labelledby="modKeynote2Label" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="modRegLabel">Inclusive growth vs exclusive death - implementing the UN Agenda 2030. Our role in institutionalising inclusive value creation.</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p>Inclusive growth vs exclusive death - implementing the UN Agenda 2030. Our role in institutionalising inclusive value creation.</p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
 													</div>
 												</div>
 											</div>
@@ -991,7 +1946,7 @@
 		<script src="js/scrollax.min.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/vars_menu.js"></script>
-		<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+		
 		<script>
 			// Example starter JavaScript for disabling form submissions if there are invalid fields
 			(function() {
