@@ -3615,11 +3615,16 @@ input[type="button"].btn-block {
   padding: 0.5rem; }
 
 .card-title {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.75rem; 
+  font-weight: bold;
+  font-family: "Work Sans", Arial, sans-serif;
+}
 
 .card-subtitle {
   margin-top: -0.375rem;
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+  font-family: "Work Sans", Arial, sans-serif;
+}
 
 .card-text:last-child {
   margin-bottom: 0; }
@@ -8918,6 +8923,18 @@ textarea.form-control {
 .prog-card-h-266 {
   min-height: 266px;
 }
+.prog-card-h-333 {
+  min-height: 333px;
+}
+.prog-card-h-380 {
+  min-height: 380px;
+}
+.prog-card-h-430 {
+  min-height: 430px;
+}
+.prog-card-h-732 {
+  min-height: 732px;
+}
 .prog-card-text {
   font-size: 12px;
 }
@@ -8988,15 +9005,7 @@ textarea.form-control {
   background: #f27406;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.img-prog-thumb {
+  width: 75%;
+  padding-bottom: 1em;
+}
