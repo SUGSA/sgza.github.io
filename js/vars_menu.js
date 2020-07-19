@@ -23,30 +23,30 @@ var menuContact = "Contact";
 var menuButton 	= "Buy Tickets ";
 
 //Set menu items to the values used above
-if (menuHome != null) {
+if (menuHome != null && document.getElementById("menuHome") != null) {
 	document.getElementById("menuHome").innerHTML = menuHome;	
 }
 
-if (menuSpeakers != null) {
+if (menuSpeakers != null && document.getElementById("menuSpeakers") != null) {
 	document.getElementById("menuSpeakers").innerHTML = menuSpeakers;	
 }
 
-if (menuSchedule != null) {
+if (menuSchedule != null && document.getElementById("menuSchedule") != null) {
 	document.getElementById("menuSchedule").innerHTML = menuSchedule;	
 }
 
-if (menuSponsors != null) {
+if (menuSponsors != null && document.getElementById("menuSponsors") != null) {
 	document.getElementById("menuSponsors").innerHTML = menuSponsors;	
 }
 
-if (menuScrumAlliance != null) {
+if (menuScrumAlliance != null && document.getElementById("menuScrumAlliance") != null) {
 	document.getElementById("menuScrumAlliance").innerHTML = menuScrumAlliance;	
 }
 
-if (menuContact != null) {
+if (menuContact != null && document.getElementById("menuContact") != null) {
 	document.getElementById("menuContact").innerHTML = menuContact;	
 }
 
-if (menuButton != null) {
+if (menuButton != null && document.getElementById("menuButton") != null) {
 	document.getElementById("menuButton").innerHTML = menuButton;	
 }
