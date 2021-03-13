@@ -1,0 +1,78 @@
+/* Style the table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 70%;
+    border: 1px solid #ddd;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+
+.table_wide {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+  border: 1px solid #ddd;
+  margin-left:auto; 
+  margin-right:auto;
+}
+  
+  /* Style table headers and table data */
+  th, td {
+    text-align: center;
+    padding: 16px;
+  }
+  .td_center {
+    text-align: center;
+    padding: 16px;
+  }
+  
+  th:first-child, td:first-child {
+    text-align: left;
+  }
+  
+  /* Zebra-striped table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+  
+  .fa-check {
+    color: green;
+  }
+  
+  .fa-remove {
+    color: red;
+  }
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: teal;
+    border-radius: 50%;
+    display: inline-block;
+    color: azure;
+    font-weight: bold;
+    font-size: small;
+    
+  }
+
+  .card_card {
+    /* Add shadows to create the "card" effect */
+    margin: auto;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    text-align: center;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .card_container {
+    width: 300px;
+    padding: 2px 16px;
+  }
