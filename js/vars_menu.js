@@ -18,9 +18,9 @@ var menuHome = " Home";
 var menuSpeakers = "Speakers";
 var menuSchedule = "Schedule";
 var menuSponsors = "Sponsors";
-var menuScrumAlliance = "Scrum Alliance";
+var menuScrumAlliance = "ScrumAlliance";
 var menuContact = "Contact";
-var menuButton 	= "Buy Tickets ";
+var menuButton 	= "Tickets ";
 
 //Set menu items to the values used above
 if (menuHome != null && document.getElementById("menuHome") != null) {
