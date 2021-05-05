@@ -20,7 +20,7 @@ var menuSchedule = "Schedule";
 var menuSponsors = "Sponsors";
 var menuScrumAlliance = "Scrum Alliance";
 var menuContact = "Contact";
-var menuButton 	= "Tickets ";
+var menuButton 	= "Sold Out ";
 
 //Set menu items to the values used above
 document.getElementById("menuHome").innerHTML = menuHome;
