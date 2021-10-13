@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Password Required"
-AuthUserFile "../passwords/htpasswd.file"
-Require group admins
