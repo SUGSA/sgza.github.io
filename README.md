@@ -1,3 +1,9 @@
 # sugsa-test.github.io
 
-git structure
+first bundle exec jekyll serve
+ then jekyll serve
+
+
+jekyll build
+
+git add .
