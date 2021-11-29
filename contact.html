@@ -43,6 +43,13 @@ layout: pageLayout
                 </div>
                 <hr> -->
                 <div class="g-recaptcha" data-sitekey="6LfRr10dAAAAAFfiwECI8YojPqRG1IV6gvJjkWsj"></div>
+                <script>$("form").submit(function(event) {
+                    var recaptcha = $("#g-recaptcha-response").val();
+                    if (recaptcha === "") {
+                       event.preventDefault();
+                       alert("Please check the recaptcha");
+                    }
+                 });</script>
                 <br/>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
