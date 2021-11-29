@@ -11,7 +11,7 @@ layout: pageLayout
             </div>
         </div>
             <form accept-charset="UTF-8" action="https://getform.io/f/3c242782-3ec9-4121-966e-fc9507e45b55"
-                method="POST" enctype="multipart/form-data" target="_blank">
+                method="POST" enctype="multipart/form-data" target="_blank" onsubmit="return submitUserForm();">
                 <div class="form-group">
                     <label for="Subject">Subject</label>
                     <input type="text" name="subject" class="form-control" id="Subject"
@@ -42,21 +42,11 @@ layout: pageLayout
                     <input type="file" name="file">
                 </div>
                 <hr> -->
-                <div class="g-recaptcha" data-sitekey="6LfRr10dAAAAAFfiwECI8YojPqRG1IV6gvJjkWsj" data-callback="recaptchaCallback"></div>
+                <div class="g-recaptcha" data-sitekey="6LfRr10dAAAAAFfiwECI8YojPqRG1IV6gvJjkWsj" data-callback="verifyCaptcha"></div>
+                <div id="g-recaptcha-error"></div>
                 <br/>
                 <button type="submit" class="btn btn-primary hidden" id="btnSubmit">Submit</button>
-                <script>
-                    function recaptchaCallback() {
-                        var btnSubmit = document.getElementById("btnSubmit");
-                
-                        if ( btnSubmit.classList.contains("hidden") ) {
-                            btnSubmit.classList.remove("hidden");
-                            btnSubmitclassList.add("show");
-                        }
-                    }
-                </script>
             </form>
-
     </div>
 </section>
 <!-- END Contact Us -->
