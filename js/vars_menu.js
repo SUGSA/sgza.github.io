@@ -20,6 +20,7 @@ var menuSchedule = "Schedule";
 var menuSponsors = "Sponsors";
 var menuScrumAlliance = "ScrumAlliance";
 var menuContact = "Contact";
+var menuButton 	= "Buy Tickets";
 //var menuButton 	= "On Sale Soon";
 //var menuButton 	= "Sold Out";
 
